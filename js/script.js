@@ -8,7 +8,7 @@ document.getElementById('register').addEventListener('submit', function(event) {
   if (passwordField.value !== confirmPasswordField.value) {
     errorMessage.innerText = 'Passwords do not match!';
     errorMessage.style.display = 'block';
-    event.preventDefault();
+    event.preventDefault(); 
   }
 
   const mobileField = document.getElementById('mobile');
