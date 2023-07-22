@@ -28,7 +28,11 @@ h1{
   color: #ffffff;
 }
 p{
+<<<<<<< HEAD
   color: #000000;
+=======
+  color: #ffffff;
+>>>>>>> 68e8536488d1bd9a8467b3f8f5c8197b2b446389
 }
 nav {
   margin-top: 3%;
