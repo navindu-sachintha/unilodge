@@ -8,16 +8,6 @@
   
 }
 
-.parallax {
-  background-image: linear-gradient(-90deg, rgba(204, 201, 196, 0.54), rgba(121, 68, 0, 0.87)),url('../img/nsbm-campus-cover.jpg');
-
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .navbar-toggler {
   position: absolute;
   top: 0;

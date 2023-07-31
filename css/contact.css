@@ -5,17 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  
-}
-
-.parallax {
-  background-image: linear-gradient(-90deg, rgba(204, 201, 196, 0.54), rgba(121, 68, 0, 0.87)),url('../img/nsbm-campus-cover.jpg');
-
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .navbar-toggler {
@@ -24,36 +13,32 @@
   right: 0;
   margin-top: 0.5rem;
 }
-h1{
-  color: #ffffff;
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-90deg, rgba(204, 201, 196, 0.54), rgba(121, 68, 0, 0.87)), url(../img/header_bg.jpg);
+  background-position: 25%;
+  background-repeat: no-repeat;
 }
-p{
-  color: #000000;
-}
+
 nav {
   margin-top: 3%;
   border-radius: 10px;
   font-size: 1.2rem;
   font-weight: 600;
 }
-
-.about-title{
+.quote{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 30px;
   font-weight: 600;
 }
 
-.about-img {
-  border-radius: 10px;
-  width: 90%;
-}
-
-iframe{
-  border-radius:10px;
-  width: 90%;
-}
-
-a{
-  text-decoration: none;
-  color: #ffffff;
+.team{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
 }
 
 footer {
